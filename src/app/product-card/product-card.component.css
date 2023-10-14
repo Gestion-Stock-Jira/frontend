@@ -1,0 +1,31 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 250px;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-buttons {
+    margin-top: 5px;
+    margin-left: 82px;
+}
+
+
+.delete-button, .modify-button {
+    padding: 8px 20px;
+    margin-right: 5px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+
+}
+

@@ -1,0 +1,13 @@
+
+<div class="product-card">
+    <img class="product-image" src="{{ product.image }}" alt="{{ product.name }}">
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.desc }}</p>
+
+    <h3>{{ product.price | currency }}</h3>
+    <p>Quantity : {{ product.qte }}</p>
+    <div class="product-buttons">
+        <button class="delete-button" (click)="deleteProduct()">Delete</button>
+        <button class="modify-button" (click)="modifyProduct()">Modify</button>
+    </div>
+</div>

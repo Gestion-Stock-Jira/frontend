@@ -1,0 +1,14 @@
+<h1 class="title">Product management</h1>
+
+<div class="container">
+  <div class="add-btn">
+    <button  (click)="AddProduct()">Add Product</button>
+  </div>
+  <!-- <app-add ></app-add> -->
+
+  <div class="comp">
+    <div *ngFor="let product of productData">
+      <app-product-card [product]="product"></app-product-card>
+    </div>
+  </div>
+</div>

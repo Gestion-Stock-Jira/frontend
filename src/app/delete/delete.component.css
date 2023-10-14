@@ -1,0 +1,27 @@
+.pop-up{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 100v;
+    margin: 60px 20px;
+}
+.btn-close {
+    padding: 8px 14px;
+    margin-right: 5px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+
+}
+.btn {
+    padding: 8px 20px;
+    margin-right: 5px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+
+}
